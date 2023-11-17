@@ -30,22 +30,15 @@ a {
 }
 
 .subMenu{
-    transition: all 1s;
-}
-
-.subMenu > li {
     width:100%;
     height: 150px ;
     display:none;
     position: absolute;
     font-size:14px;
-    transition: all 1s;
 }
 
-.menu > ul > li:hover > ul > li {
+.menu > ul > li:hover > ul{
     display:block;
-    height: 50px;
-    transition: all 1s;
 }
 
 .menu > ul > li > ul > li{
